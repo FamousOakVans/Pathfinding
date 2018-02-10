@@ -7,14 +7,14 @@
     tools:context=".MainActivity">
 
     <com.janeandjohnstudio.pathfinding.graphics.Node
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:nodeColor="@android:color/transparent"
-        app:nodeValue="10"
-        android:padding="0dp"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
+        android:textSize="16sp"
+        app:nodeValue="B" />
 
 </android.support.constraint.ConstraintLayout>

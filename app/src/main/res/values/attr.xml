@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="Node">
-        <attr name="nodeValue" format="integer" />
+        <attr name="nodeValue" format="string" />
         <attr name="valueColor" format="color" />
         <attr name="nodeColor" format="color" />
-        <attr name="borderWidth" format="integer" />
+        <attr name="borderWidth" format="float" />
         <attr name="borderColor" format="color" />
     </declare-styleable>
 </resources>
